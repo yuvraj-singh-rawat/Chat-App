@@ -1,0 +1,23 @@
+@import "tailwindcss";
+@plugin "daisyui";
+
+body {
+  background: url("https://images.unsplash.com/photo-1493246507139-91e8fad9978e?ixlib=rb-4.1.0&q=85&fm=jpg&crop=entropy&cs=srgb&dl=garrett-parker-DlkF4-dbCOU-unsplash.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+::-webkit-scrollbar {
+  width: 6px;
+}
+
+::-webkit-scrollbar-track {
+  background-color: aliceblue;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #000;
+  border-radius: 10px;
+}
+
