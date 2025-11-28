@@ -19,7 +19,7 @@ app.use(express.json());
 app.use(cookieParser());
 
 const corsOption = {
-    origin: 'http://localhost:5173',
+    origin: ['http://localhost:5173', 'https://uv-chat-seven.vercel.app'],
     credentials: true
 };
 
