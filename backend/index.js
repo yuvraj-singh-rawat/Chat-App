@@ -31,6 +31,10 @@ app.use("/api/v1/message", messageRoute)
 
 // http://localhost:8080/api/v1/user/register
 
+app.get("/", (req, res) => {
+    res.send("Chat App Backend is Running 🚀");
+});
+
 server.listen(PORT, () => {
     connectDB();
     console.log(`Server listening on port ${PORT}`);
