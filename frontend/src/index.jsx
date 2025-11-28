@@ -10,7 +10,10 @@ import { persistStore } from "redux-persist";
 
 let persistor = persistStore(store);
 
-export const BASE_URL = "http://localhost:8080";
+export const BASE_URL = [
+  "http://localhost:8080",
+  "https://uv-chat-backend.onrender.com",
+];
 
 createRoot(document.getElementById("root")).render(
   <StrictMode>
