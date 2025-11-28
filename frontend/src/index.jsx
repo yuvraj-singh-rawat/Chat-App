@@ -10,7 +10,7 @@ import { persistStore } from "redux-persist";
 
 let persistor = persistStore(store);
 
-export const BASE_URL = "https://chat-app-backend-red-seven.vercel.app";
+export const BASE_URL = "http://localhost:8080";
 
 createRoot(document.getElementById("root")).render(
   <StrictMode>
